@@ -1,4 +1,4 @@
-console.log('Starting...')
+console.log('Memulai. . .')
 
 import {
 	join,
@@ -42,7 +42,7 @@ say(`BOTSTYLEE`, {
 	transitionGradient: true,
 	letterSpacing: 3,
 });
-say(`'BOTSTYLEE' Coded By BENNIISMAIL`, {
+say(`'BOTSTYLEE' 'Coded By BENNIISMAIL' 'Recode By Prio Prastyo'`, {
 	font: 'console',
 	align: 'center',
 	gradient: ['#DCE35B', '#45B649'],
