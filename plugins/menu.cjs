@@ -8,21 +8,37 @@ var levelling = require('../lib/levelling.cjs')
 var moment = require('moment-timezone')
 var defaultMenu = {
 	before: `
- Halo %name
+ Hi %name
 
-Limit : %limit
-Role : %role
-Level : %level (%exp / %maxexp)
-Total exp : %totalexp
+Limit mu: %limit
+Tier mu : %role
+Level mu : %level (%exp / %maxexp)
+Total exp : %totalexp total
 
 Tanggal: %week, %date
-Waktu: %time
+WIB: %time
 
 Uptime: %uptime (%muptime)
-Database: %totalreg
+Database: %totalreg user
 
-Github Ori : https://github.com/botstylee/botstylee
+Spam Auto : Banned 📵
+Call Auto : Block 🔕
 
+NOTE:
+Berikut ini adalah beberapa command/perintah untuk
+membuat fitur ini bekerja, yaitu:
+
+Menggunakan tanda slash ( / )
+Menggunakan tanda titik ( . )
+Menggunakan tanda tanya ( ? )
+
+Contoh: 
+ketika kamu ingin membuat sticker, kirim/reply image
+menggunakan caption : /sticker
+
+Begitu juga untuk fitur yang lainnya.
+'Kuharap kalian mengerti dan bijak dalam menggunakan
+WhatsApp bot ini'. . .
 
 `.trimStart(),
 	header: '*%category*',
