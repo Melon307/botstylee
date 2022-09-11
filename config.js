@@ -1,4 +1,3 @@
-
 import fs, {
 	watchFile,
 	unwatchFile
@@ -39,9 +38,9 @@ global.thumb = fs.readFileSync("./src/baba.jpg")
 global.profil = fs.readFileSync("./src/botstyle.png")
 global.zippy = (await import('./lib/zippy.cjs')).zippy
 global.tiny = (await import('./lib/tiny.cjs')).default
-global.gc = "https://chat.whatsapp.com/KihEAYjKr04LI4uUrbiiip"
-global.gh = "https://github.com/botstylee"
-global.yt = "https://youtube.com/channel/UCrNO1yUYW0i3xsJp4NGBh4Q"
+global.gc = "https://chat.whatsapp.com/F4mwyaFGBBR9UD4LFL3P1I"
+global.gh = "https://prioprasty.github.io/si_paling_Bucin/"
+global.yt = "https://youtube.com/"
 function ucapan() {
 	var time = moment.tz('Asia/Jakarta').format('HH')
 	var res
